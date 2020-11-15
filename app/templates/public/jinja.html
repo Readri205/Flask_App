@@ -1,5 +1,7 @@
 {% extends "public/templates/public_template.html" %}
 
+{% import "macros/input_macros.html" as im %}
+
 {% block title %}Jinja{% endblock %}
 
 {%  block main %}
@@ -142,6 +144,14 @@
             <h4>Escaping</h4>
             <hr>
             <p>{{ my_html|safe }}</p>
+            
+            <h4>Macros</h4>
+            <hr>
+            {{ im.input(label="Your name", name="name", id="name", placeholder="Please enter your name") }}
+
+            {{ im.input(label="Age", type="number", name="age", id="age", placeholder="Please enter your age") }}
+
+            {{ im.input(label="Password", type="password", name="password", id="password", placeholder="Please enter your password") }}
         </div>
     </div>
 </div>
