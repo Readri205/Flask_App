@@ -134,6 +134,10 @@
             <hr>
             <p>Unjoined: {{ langs }}</p>
             <p>Joined: {{ langs|join(", ") }}</p>
+            
+            <h4>Custom filters</h4>
+            <hr>
+            <p>{{ date|clean_date }}</p>
 
         </div>
     </div>
