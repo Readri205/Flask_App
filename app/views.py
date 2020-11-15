@@ -16,7 +16,7 @@ def about():
 def jinja():
 
     # Strings
-    my_name = "Julian"
+    my_name = "Dyckie"
 
     # Integers
     my_age = 30
