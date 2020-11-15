@@ -52,6 +52,13 @@
                 {% endfor %}
             </ul>
 
+            <strong class="d-block mb-3">Friends (loop on 'keys'</strong>
+            <ul>
+                {% for name in friends.keys() %}
+                <li>{{ name }}</li>
+                {% endfor %}
+            </ul>
+
             <h4>Calling functions</h4>
             <hr>
             <p>{{ repeat("Jinja is great! ", 10) }}</p>
