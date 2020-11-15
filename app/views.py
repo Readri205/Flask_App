@@ -19,7 +19,7 @@ def jinja():
     my_name = "Dyckie"
 
     # Integers
-    my_age = 59
+    my_age = 25
 
     # Lists
     langs = ["Python", "JavaScript", "Bash", "Ruby", "C", "Rust"]
