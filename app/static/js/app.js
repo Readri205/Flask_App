@@ -1,3 +1,3 @@
-console.log('Hello from app.js!');
+/* console.log('Hello from app.js!');
 
-alert("whoooooooo!")
+alert("whoooooooo!") */
