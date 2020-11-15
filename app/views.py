@@ -65,11 +65,13 @@ def jinja():
         return x * qty
 
     date = datetime.utcnow()
-    
+
+    my_html = "<h1> This is some HTML</h1>"
+
     return render_template(
     "public/jinja.html", my_name=my_name, my_age=my_age, langs=langs,
     friends=friends, colors=colors, cool=cool, GitRemote=GitRemote, 
-    my_remote=my_remote, repeat=repeat, date=date
+    my_remote=my_remote, repeat=repeat, date=date, my_html=my_html
     )
 
 @app.template_filter("clean_date")
